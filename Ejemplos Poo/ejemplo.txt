@@ -1,0 +1,17 @@
+class Operaciones {
+  int sumar(int a, int b) {
+    return a + b;
+  }
+
+  double sumar(double a, double b) {
+    return a + b;
+  }
+}
+
+public class Main {
+  public static void main(String[] args) {
+    Operaciones operacion = new Operaciones();
+    System.out.println(operacion.sumar(5, 10));
+    System.out.println(operacion.sumar(3.5, 2.7));
+  }
+}
