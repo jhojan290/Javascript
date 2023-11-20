@@ -1,5 +1,5 @@
 const obtenerInformacion = (materia)=>{
-    materias = {
+    const materias = {
         fisica: ["Perez","pedro", "pepito", "cofla", "maria"],
         programacion: ["Rodriguez","pedro", "pepito"],
         logica: ["Dalto","pedro", "pepito", "cofla"],
@@ -8,7 +8,7 @@ const obtenerInformacion = (materia)=>{
     }
 
     if (materias[materia] !== undefined) {
-        return [materias[materia],materia,materias];
+        return [materias[materia],materia];
     } else {
         return materias;
     }
