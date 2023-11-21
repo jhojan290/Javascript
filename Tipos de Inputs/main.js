@@ -22,7 +22,10 @@ const titulo = document.querySelector(".titulo");
 
 // titulo.style.color="#a22";
 
-titulo.style.backgroundColor = "#32b";
+// titulo.style.backgroundColor = "#32b"; // trabajando con estilos en javascript, modificando propiedades del CSS desde JS
+
+// titulo.style.padding= "30px";
+// titulo.style.backgroundColor = "#48e";
 
 // LOS MÉTODOS PARA DEFINIR, OBTENER Y ELIMINAR ATRIBUTOS SE USAN CON LA ETIQUETA ELEMENTS, MIENTRAS QUE LOS MÉTODOS DE SELECCIÓN DE ELEMENTOS,
 // SE USAN CON LA ETIQUETA DOCUMENT

@@ -36,3 +36,43 @@
 // numeros.forEach(function(numero){
 //     document.write(numero + "<br>");
 // })
+
+
+
+/***************************************************************************** */
+
+
+//En JavaScript, el bucle forEach se utiliza para iterar sobre elementos de un array o sobre las propiedades de un objeto. Su estructura básica es la siguiente:
+
+
+// array.forEach(function(element, index, array) {
+//   // código a ejecutar para cada elemento del array
+// });
+
+/*element: El valor del elemento actual en el array.
+index: El índice del elemento actual en el array.
+array: El array sobre el cual se está iterando.
+Ejemplo de uso con un array:*/
+
+
+// var numbers = [1, 2, 3, 4, 5];
+
+// numbers.forEach(function(number, index) {
+//   console.log("Elemento en el índice " + index + ": " + number);
+// });
+
+
+
+//Si quieres iterar sobre las propiedades de un objeto, el principio es el mismo:
+
+
+// var person = { name: "John", age: 30, job: "developer" };
+
+// Object.keys(person).forEach(function(key) {
+//   console.log(key + ": " + person[key]);
+// });
+
+
+// numbers.forEach((number, index) => {
+//   console.log("Elemento en el índice " + index + ": " + number);
+// });
